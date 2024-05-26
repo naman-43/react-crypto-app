@@ -63,7 +63,7 @@ class ReactHome extends Component {
         <Content style={contentStyle}>
           <Title level={2}>Crypto</Title>
           <Paragraph>
-            Bringing you cryptocurrency related data in a user friendly,
+            Bringing you Cryptocurrency related data in a user friendly,
             digestible dashboard platform.
           </Paragraph>
 
@@ -99,7 +99,6 @@ class ReactHome extends Component {
               </Col>
             ))}
           </Row>
-          <Paragraph>icons provided by flaticon.</Paragraph>
         </Content>
       </Layout>
     )

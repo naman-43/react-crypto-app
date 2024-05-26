@@ -1,11 +1,10 @@
-{
-  "name": "coin-app",
+  {"name": "coin-app",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://danielc92.github.io/react-crypto-app",
   "dependencies": {
     "antd": "^4.21.7",
-    "axios": "^0.21.2",
+    "axios": "^0.21.4",
     "chart.js": "^2.8.0",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",

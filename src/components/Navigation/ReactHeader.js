@@ -23,7 +23,7 @@ class ReactHeader extends Component {
           >
             <Menu.Item key="logo" onClick={() => this.props.setHeaderMenuItem('home')}>
               <Link to="/">
-                <img alt="daniel corcorans crypto react app logo"
+                <img alt="crypto react app logo"
                   style={{ maxHeight: '40px' }}
                   src={logoImage}></img>
               </Link>
@@ -41,12 +41,12 @@ class ReactHeader extends Component {
             </Menu.Item>
             <Menu.Item key="about" onClick={() => this.props.setHeaderMenuItem('about')}>
               <Link to="/about">
-                <InfoCircleOutlined style={iconStyle}/>About
+                <InfoCircleOutlined style={iconStyle}/>Latest News
               </Link>
             </Menu.Item>
             <Menu.Item key="source">
-              <a rel="noopener noreferrer" target="_blank" href="https://github.com/danielc92/react-crypto-app">
-                <GithubOutlined style={iconStyle}/>Source
+              <a rel="noopener noreferrer" target="_blank" href="https://github.com/naman-43/Training">
+                <GithubOutlined style={iconStyle}/>Git Hub
               </a>
             </Menu.Item>
           </Menu>

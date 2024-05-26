@@ -38,7 +38,6 @@ class ReactSider extends Component {
                 </span>
               }
             >
-              <Menu.Item key="asset-platforms"><Link to='/asset-platforms'>Asset Platforms</Link></Menu.Item>
               <Menu.Item key="trending-coins"><Link to='/trending-coins'>Trending coins</Link></Menu.Item>
             </SubMenu>
             {/* Coin Sub Menu */}
@@ -53,19 +52,6 @@ class ReactSider extends Component {
               <Menu.Item key="coin-list"><Link to='/coins'>Coin Listing</Link></Menu.Item>
               <Menu.Item key="coin-detail"><Link to='/coins/bitcoin'>Coin Detail View</Link></Menu.Item>
             </SubMenu>
-
-            {/* Exchanges Menu */}
-            <SubMenu
-              key="menu-exchanges"
-              title={
-                <span>
-                  <BankOutlined style={iconStyle}/>
-                            Exchanges
-                </span>
-              }>
-              <Menu.Item key="exchanges-list"><Link to='/exchanges/list'>Exchanges Listing</Link></Menu.Item>
-            </SubMenu>
-
             {/* Exchange Rates Menu */}
             <SubMenu
               key="menu-exchange-rates"
